@@ -1,23 +1,26 @@
-import logo from './logo.svg';
+
+// import React,{ useState } from 'react';
 import './App.css';
+import Company from './Thursday/Company';
+import UseMemoExp from './Thursday/UseMemoExp';
+// import Test from './component/Test';
+// import Counter from './component/Counter';
 
 function App() {
+  // const[count,setCount] = useState(0);
+  // const[data,setData] = useState(1);
+  // function increament(){
+  //   setData(2);
+  //   setCount(count+1);
+  // }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    App Component
+    <UseMemoExp/>
+    {/* <Company/> */}
+    {/* <Counter/> */}
+    {/* <Test data={data}/>
+    <button onClick={()=>increament()}>+{count} Count</button> */}
     </div>
   );
 }
